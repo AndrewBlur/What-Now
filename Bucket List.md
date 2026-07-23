@@ -1,0 +1,8 @@
+- [ ] Horse riding
+- [ ] Rock Climbing
+- [ ] Ramen
+- [ ] Paragliding
+- [ ] Bungee Jumping
+- [ ] Concert
+- [ ] Archery
+- [ ] learn to swim
