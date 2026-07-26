@@ -454,4 +454,8 @@ Nothing
 - [ ] Finance Bot
 	- [x] it can talk yay!!
 	- [ ] parse photo/text  --> Confirmation -> save/update it 
-	 
+
+#26/07/2026
+- [ ] Kaggle Competition
+- [ ] Dumb Editor
+- [ ] ML Design Book
