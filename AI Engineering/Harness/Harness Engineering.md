@@ -5,4 +5,4 @@ api calls are stateless , harness handles the History
 PH3
 instructions give the model a replicable character
 PH4
-cont
+context delivery

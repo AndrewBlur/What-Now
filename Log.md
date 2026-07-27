@@ -457,5 +457,11 @@ Nothing
 
 #26/07/2026
 - [ ] Kaggle Competition
-- [ ] Dumb Editor
+- [x] Dumb Editor
 - [ ] ML Design Book
+
+#27/07/2026 
+- [x] ML Design Book
+- [ ] Harness Engineering
+- [ ] Kaggle Competition
+- [ ] Dumb Editor

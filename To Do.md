@@ -33,7 +33,6 @@
 		- [x] Chapter 1
 		- [x] Chapter 2
 		- [x] Chapter 3
-		- [ ] Chapter 4
 	- [ ] AI Engineering From Scratch [link](https://github.com/rohitg00/ai-engineering-from-scratch/blob/main/phases/01-math-foundations/01-linear-algebra-intuition/docs/en.md)
 		- [ ] Phase 1 
 
@@ -42,6 +41,7 @@
 - [ ] Whats Next
 	- [ ] Update Linked In
 	- [ ] Complete a MLOPS book
+		- [ ] Learn what are message brokers
 	- [ ] Build a Harness 
 	- [ ] Build a MLOPS Project
 	- [ ] after project do a certification
