@@ -465,3 +465,7 @@ Nothing
 - [ ] Harness Engineering
 - [ ] Kaggle Competition
 - [ ] Dumb Editor
+
+#28/07/2026
+- [ ] ML Design Book
+- [ ] Harness Engineering

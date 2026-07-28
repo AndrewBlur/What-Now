@@ -15,20 +15,9 @@
 	- [ ] Trees
 	- [x] Graphs
 
-- [x] From Scratch No LLM Chat Backend with Memory Management
-	- [x] Connect a Database
-	- [x] Build a Oauth2 authentication
-	- [x] Build the API Gateway
-	- [x] Add Memory
-	- [x] Add Tools Feature
-	- [x] Add Internet Search
-	- [x] Change to Asynchoronous (No needed to do that)
-	- [x] Add Knowledge Store and RAG
-	- [x] Connect MCP
-
 - [ ] Certification (Start after April)
 
-- [ ] Prepare for *The Internship*
+- [ ] Prepare in *The Internship*
 	- [ ] Designing ML systems
 		- [x] Chapter 1
 		- [x] Chapter 2
@@ -42,7 +31,10 @@
 	- [ ] Update Linked In
 	- [ ] Complete a MLOPS book
 		- [ ] Learn what are message brokers
-	- [ ] Build a Harness 
+	- [ ] Build a Harness
+	- [ ] System design
+	- [ ] Learn SocketIO
+	- [ ] Learn Connection Driven Server
 	- [ ] Build a MLOPS Project
 	- [ ] after project do a certification
 	- [ ] Kaggle Competitions [ROGII - Wellbore Geology Prediction](https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction)
