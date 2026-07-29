@@ -6,3 +6,8 @@ PH3
 instructions give the model a replicable character
 PH4
 context delivery
+PH5 
+tool call loop
+workspace 
+sandbox bash commands
+tool management

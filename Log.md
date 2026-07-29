@@ -467,5 +467,12 @@ Nothing
 - [ ] Dumb Editor
 
 #28/07/2026
-- [ ] ML Design Book
+- [x] ML Design Book
 - [ ] Harness Engineering
+
+#29/07/2026
+- [x] ML Design Book
+- [x] Harness Engineering 2 phases
+	- [x] Context Management Theory
+- [ ] Nand 2 Tetris
+- [ ] Kaggle Competition
