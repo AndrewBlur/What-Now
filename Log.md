@@ -471,8 +471,34 @@ Nothing
 - [ ] Harness Engineering
 
 #29/07/2026
+<<<<<<< Updated upstream
 - [x] ML Design Book
 - [x] Harness Engineering 2 phases
 	- [x] Context Management Theory
 - [ ] Nand 2 Tetris
 - [ ] Kaggle Competition
+=======
+- [ ] ML Design Book
+- [ ] Harness Engineering
+- [ ] Nand 2 Tetris
+- [ ] Kaggle Competition
+
+#08/08/2026
+- [ ] ML Design Book
+	- [x] Try Parallel Training
+	- [ ] Pipeline parallism
+	- [x] data parallism
+	- [ ] model paralism
+
+#09/08/2026
+- [ ] Distributed Training
+	- [x] Data Parallel
+	- [x] Model Parallel
+	- [x] Fully Sharded Data Parallel (theory)
+	- [x] Pipeline Parallelism
+	- [ ] Tensor Parallel
+- [ ] Japanese
+	- [ ] 20 vocabularies
+	- [ ] 2 columns of hiragana
+	- [ ] Revise
+>>>>>>> Stashed changes

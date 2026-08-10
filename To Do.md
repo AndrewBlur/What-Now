@@ -15,13 +15,16 @@
 	- [ ] Trees
 	- [x] Graphs
 
-- [ ] Certification (Start after April)
+- [ ] Certification
 
 - [ ] Prepare in *The Internship*
 	- [ ] Designing ML systems
 		- [x] Chapter 1
 		- [x] Chapter 2
 		- [x] Chapter 3
+		- [x] Chapter 4
+		- [x] Chapter 5
+		- [x] Chapter 6
 	- [ ] AI Engineering From Scratch [link](https://github.com/rohitg00/ai-engineering-from-scratch/blob/main/phases/01-math-foundations/01-linear-algebra-intuition/docs/en.md)
 		- [ ] Phase 1 
 
@@ -30,11 +33,12 @@
 - [ ] Whats Next
 	- [ ] Update Linked In
 	- [ ] Complete a MLOPS book
-		- [ ] Learn what are message brokers
+		- [ ] Learn what are message 'brokers'
+	- [ ] NAND to Tetris
 	- [ ] Build a Harness
 	- [ ] System design
 	- [ ] Learn SocketIO
 	- [ ] Learn Connection Driven Server
 	- [ ] Build a MLOPS Project
 	- [ ] after project do a certification
-	- [ ] Kaggle Competitions [ROGII - Wellbore Geology Prediction](https://www.kaggle.com/competitions/rogii-wellbore-geology-prediction)
+	- [ ] Kaggle Competitions
