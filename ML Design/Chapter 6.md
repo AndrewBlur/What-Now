@@ -1,4 +1,3 @@
-
 # Data Parallelism
 
 ```python
@@ -312,6 +311,198 @@ the core condition when we can use this is a model we have can fit into a gpu , 
 
 but this becomes its drawback , `each model has to be loaded into all the gpu we'll be using` 
 
+## Fully Sharded Data Parallel
+
+FSDP is still data parallel. The dataset is split across GPUs using a `DistributedSampler`, just like DDP. The difference is that instead of every GPU permanently storing a full model copy, the model parameters, gradients, and optimizer states are sharded across GPUs. During forward and backward, FSDP temporarily all-gathers the required layer, computes on each GPU's local mini-batch, then frees the full layer and reduce-scatters the gradients.
+
+```python
+%%writefile train_fsdp.py
+
+import os
+import torch
+import torch.nn as nn
+import torch.distributed as dist
+
+from torch.distributed.fsdp import fully_shard
+
+
+# ============================================================
+# Model
+# ============================================================
+
+class FSDPModel(nn.Module):
+
+    def __init__(self):
+        super().__init__()
+
+        self.fc1 = nn.Linear(
+            32768,
+            32768
+        )
+
+        self.fc2 = nn.Linear(
+            32768,
+            32768
+        )
+
+    def forward(self, x):
+
+        # Make sure previous CUDA work is finished
+        torch.cuda.synchronize()
+
+        print(
+            f"Rank {self.rank} | "
+            f"BEFORE fc1 | "
+            f"GPU0={torch.cuda.utilization(0)}% "
+            f"GPU1={torch.cuda.utilization(1)}%"
+        )
+
+        x = torch.relu(self.fc1(x))
+
+        torch.cuda.synchronize()
+
+        print(
+            f"Rank {self.rank} | "
+            f"AFTER fc1 | "
+            f"GPU0={torch.cuda.utilization(0)}% "
+            f"GPU1={torch.cuda.utilization(1)}%"
+        )
+
+        x = torch.relu(self.fc2(x))
+
+        torch.cuda.synchronize()
+
+        print(
+            f"Rank {self.rank} | "
+            f"AFTER fc2 | "
+            f"GPU0={torch.cuda.utilization(0)}% "
+            f"GPU1={torch.cuda.utilization(1)}%"
+        )
+
+        return x
+
+
+# ============================================================
+# Distributed setup
+# ============================================================
+
+rank = int(os.environ["LOCAL_RANK"])
+
+torch.cuda.set_device(rank)
+
+device = torch.device(
+    f"cuda:{rank}"
+)
+
+dist.init_process_group(
+    backend="nccl",
+    device_id=device
+)
+
+
+# ============================================================
+# Create model
+# ============================================================
+
+model = FSDPModel()
+
+model.rank = rank
+
+
+# ============================================================
+# FSDP SHARDING
+# ============================================================
+
+fully_shard(model.fc1)
+fully_shard(model.fc2)
+
+fully_shard(model)
+
+
+# ============================================================
+# Optimizer
+# ============================================================
+
+optimizer = torch.optim.SGD(
+    model.parameters(),
+    lr=0.001
+)
+
+
+# ============================================================
+# Input
+# ============================================================
+
+x = torch.randn(
+    2048,
+    32768,
+    device=device
+)
+
+target = torch.randn(
+    2048,
+    32768,
+    device=device
+)
+
+
+# ============================================================
+# Training
+# ============================================================
+
+model.train()
+
+dist.barrier()
+
+for step in range(2):
+
+    optimizer.zero_grad(
+        set_to_none=True
+    )
+
+    print(
+        f"\n========== "
+        f"RANK {rank} STEP {step} "
+        f"=========="
+    )
+
+    output = model(x)
+
+    loss = nn.functional.mse_loss(
+        output,
+        target
+    )
+
+    loss.backward()
+
+    optimizer.step()
+
+    dist.barrier()
+
+
+# ============================================================
+# Memory
+# ============================================================
+
+torch.cuda.synchronize()
+
+print(
+    f"\nRank {rank}: "
+    f"allocated = "
+    f"{torch.cuda.memory_allocated(device) / 1024**3:.2f} GB"
+)
+
+print(
+    f"Rank {rank}: "
+    f"peak = "
+    f"{torch.cuda.max_memory_allocated(device) / 1024**3:.2f} GB"
+)
+
+
+dist.destroy_process_group()
+```
+
+
 
 # Model Parallel
 when we cant load the whole model in the same GPU, we split the model into different parts and load those parts in different , so for example
@@ -620,6 +811,11 @@ dist.destroy_process_group()
 ```
 
 something like this to attempt pipeline parallelism
+
+# Tensor Parallelism
+
+<img src="https://lh3.googleusercontent.com/d/1U8FKIwTiSS7uom1HWJZJ_DLUPjOk7Doj">
+
 
 
 

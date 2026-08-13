@@ -5,7 +5,6 @@
 - [ ] Bungee Jumping
 - [ ] Concert
 - [ ] Archery
-
 - [ ] Learn Swimming - gears cost - 1500 , classes cost -  , Saturday and Sunday
 - [ ] Learn Japanese
 - [ ] Save 5000 every month 

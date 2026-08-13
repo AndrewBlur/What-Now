@@ -17,7 +17,7 @@
 
 - [ ] Certification
 
-- [ ] Prepare in *The Internship*
+- [ ] 
 	- [ ] Designing ML systems
 		- [x] Chapter 1
 		- [x] Chapter 2
@@ -25,20 +25,24 @@
 		- [x] Chapter 4
 		- [x] Chapter 5
 		- [x] Chapter 6
+		- [x] Chapter 7
 	- [ ] AI Engineering From Scratch [link](https://github.com/rohitg00/ai-engineering-from-scratch/blob/main/phases/01-math-foundations/01-linear-algebra-intuition/docs/en.md)
 		- [ ] Phase 1 
 
 
 
 - [ ] Whats Next
-	- [ ] Update Linked In
-	- [ ] Complete a MLOPS book
-		- [ ] Learn what are message 'brokers'
-	- [ ] NAND to Tetris
-	- [ ] Build a Harness
+	- [ ] Backend Engineering
+		- [ ]  Learn SocketIO (Saturday)
+		- [ ] Learn Connection Driven Server (Saturday)
+		- [ ] Learn what are message 'brokers' (Saturday)
 	- [ ] System design
-	- [ ] Learn SocketIO
-	- [ ] Learn Connection Driven Server
-	- [ ] Build a MLOPS Project
-	- [ ] after project do a certification
-	- [ ] Kaggle Competitions
+	
+	- [ ] MLOPS
+		- [ ] Complete a MLOPS book
+		- [ ] ML INFRA GITHUB
+
+	- [ ] Fun Projects
+		- [ ] NAND to Tetris
+		- [ ] Build a Harness 
+		- [ ] Kaggle Competitions
