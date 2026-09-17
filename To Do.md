@@ -1,6 +1,7 @@
 - [ ] Take care of urself mate
 	- [x] Go to a Dentist
 	- [ ] moles
+	- [x] Hair Clinic 
 
 - [ ] Learn how to draw (Good Enough to go on a stroll and draw a background)
 	- [x] Basics
@@ -34,8 +35,8 @@
 - [ ] Whats Next
 	- [ ] Backend Engineering
 		- [ ]  Learn SocketIO (Saturday)
-		- [ ] Learn Connection Driven Server (Saturday)
-		- [ ] Learn what are message 'brokers' (Saturday)
+		- [ ] Learn Connection Driven Server
+		- [ ] Learn what are message 'brokers'
 	- [ ] System design
 	
 	- [ ] MLOPS
@@ -43,6 +44,4 @@
 		- [ ] ML INFRA GITHUB
 
 	- [ ] Fun Projects
-		- [ ] NAND to Tetris
 		- [ ] Build a Harness 
-		- [ ] Kaggle Competitions

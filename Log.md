@@ -508,4 +508,7 @@ Nothing
 #11/08/2026
 - [ ] Chapter 7
 	- [ ] Finish
-	- [ ] 
+
+#01/09/2026
+- [ ] Chapter 8
+- [ ] 
