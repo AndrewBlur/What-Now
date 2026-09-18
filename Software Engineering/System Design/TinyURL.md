@@ -7,3 +7,12 @@ built a normal version of tinyurl replica -> shortening URLs to at most 10 chars
 - worst response took 25 mins 
 - 95% of response took 4 mins 
 
+#18/09/2026
+Phase 1
+- added basic validations for URLs from pydantic which will throw 422
+- added proper error handling
+- added per request -> db session management -> created a get_db style 
+- changed the db layer to async  -> changes the db driver to support async
+- added healthcheck for db start ,   
+- 
+
