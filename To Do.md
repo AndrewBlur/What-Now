@@ -38,6 +38,7 @@
 		- [ ] Learn Connection Driven Server
 		- [ ] Learn what are message 'brokers'
 	- [ ] System design
+		- [ ] Phase 0
 	
 	- [ ] MLOPS
 		- [ ] Complete a MLOPS book
@@ -45,3 +46,19 @@
 
 	- [ ] Fun Projects
 		- [ ] Build a Harness 
+
+- Month Goal
+	- [ ] September
+		- [ ] Complete a MLOPS book
+		- [ ] Daily system design
+		- [ ] Hot Trend Topics
+			- [x] How attention works
+			- [ ] KV Cache
+			- [ ] Reasoning and Test-Time Compute
+			- [ ] How do they make models multimodal
+			- [ ] how does llms interact with browsers 
+			- [ ]  sparse attention and flash attention paper
+			- [ ] mixture of experts
+			- [ ] how guardrails work
+			
+	

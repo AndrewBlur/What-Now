@@ -512,3 +512,18 @@ Nothing
 #01/09/2026
 - [ ] Chapter 8
 - [ ] 
+#15/08/2026
+- [ ] Model Compression
+	- [ ] Low Rank Factorization
+	- [ ] mobilenets - pointwise cnn
+	- [ ] quantization
+	- [ ] deep compression
+- [ ] 3 column hiragana
+
+#22/08/2026
+- [ ] Web Sockets
+- [ ] Chapter 8
+
+#07/09/2026
+- [x] Chapter 8
+- [ ] 
