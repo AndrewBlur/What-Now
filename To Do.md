@@ -38,7 +38,8 @@
 		- [ ] Learn Connection Driven Server
 		- [ ] Learn what are message 'brokers'
 	- [ ] System design
-		- [ ] Phase 0
+		- [x] Phase 0
+		- [ ] tinyurl
 	
 	- [ ] MLOPS
 		- [ ] Complete a MLOPS book
