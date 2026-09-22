@@ -27,6 +27,8 @@
 		- [x] Chapter 5
 		- [x] Chapter 6
 		- [x] Chapter 7
+		- [x] Chapter 8
+		- [x] Chapter 9
 	- [ ] AI Engineering From Scratch [link](https://github.com/rohitg00/ai-engineering-from-scratch/blob/main/phases/01-math-foundations/01-linear-algebra-intuition/docs/en.md)
 		- [ ] Phase 1 
 
