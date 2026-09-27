@@ -29,24 +29,21 @@
 		- [x] Chapter 7
 		- [x] Chapter 8
 		- [x] Chapter 9
+		- [x] Chapter 10
 	- [ ] AI Engineering From Scratch [link](https://github.com/rohitg00/ai-engineering-from-scratch/blob/main/phases/01-math-foundations/01-linear-algebra-intuition/docs/en.md)
 		- [ ] Phase 1 
 
 
 
 - [ ] Whats Next
-	- [ ] Backend Engineering
-		- [ ]  Learn SocketIO (Saturday)
-		- [ ] Learn Connection Driven Server
-		- [ ] Learn what are message 'brokers'
 	- [ ] System design
 		- [x] Phase 0
-		- [ ] tinyurl
+		- [x] tinyurl
 	
 	- [ ] MLOPS
 		- [ ] Complete a MLOPS book
 		- [ ] ML INFRA GITHUB
-
+	 
 	- [ ] Fun Projects
 		- [ ] Build a Harness 
 
@@ -54,14 +51,9 @@
 	- [ ] September
 		- [ ] Complete a MLOPS book
 		- [ ] Daily system design
-		- [ ] Hot Trend Topics
-			- [x] How attention works
-			- [ ] KV Cache
-			- [ ] Reasoning and Test-Time Compute
-			- [ ] How do they make models multimodal
-			- [ ] how does llms interact with browsers 
-			- [ ]  sparse attention and flash attention paper
-			- [ ] mixture of experts
-			- [ ] how guardrails work
+	- [ ] October
+		- [ ] Distributed Storage System
+		- [ ] ML Infra
+		- [ ] AI Engineering
 			
 	
