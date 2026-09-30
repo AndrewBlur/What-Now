@@ -2,6 +2,7 @@
 	- [x] Go to a Dentist
 	- [ ] moles
 	- [x] Hair Clinic 
+	- [ ] Blood Test
 
 - [ ] Learn how to draw (Good Enough to go on a stroll and draw a background)
 	- [x] Basics
@@ -18,32 +19,17 @@
 
 - [ ] Certification
 
-- [ ] 
-	- [ ] Designing ML systems
-		- [x] Chapter 1
-		- [x] Chapter 2
-		- [x] Chapter 3
-		- [x] Chapter 4
-		- [x] Chapter 5
-		- [x] Chapter 6
-		- [x] Chapter 7
-		- [x] Chapter 8
-		- [x] Chapter 9
-		- [x] Chapter 10
-	- [ ] AI Engineering From Scratch [link](https://github.com/rohitg00/ai-engineering-from-scratch/blob/main/phases/01-math-foundations/01-linear-algebra-intuition/docs/en.md)
-		- [ ] Phase 1 
-
-
 
 - [ ] Whats Next
 	- [ ] System design
 		- [x] Phase 0
 		- [x] tinyurl
 	
-	- [ ] MLOPS
+	- [ ] MLOPS / AI Engineering
 		- [ ] Complete a MLOPS book
 		- [ ] ML INFRA GITHUB
-	 
+		- [ ] AI Engineering GITHUB
+	
 	- [ ] Fun Projects
 		- [ ] Build a Harness 
 
@@ -51,9 +37,14 @@
 	- [ ] September
 		- [ ] Complete a MLOPS book
 		- [ ] Daily system design
+		- [x] K8
+			- [x] Basics
+		- [ ] KubeFlow
+		- [x] TinyURL
 	- [ ] October
 		- [ ] Distributed Storage System
-		- [ ] ML Infra
-		- [ ] AI Engineering
+		- [ ] Daily One Problem
+		- [ ] ML Infra Github
+		- [ ] AI Engineering Book
 			
 	
