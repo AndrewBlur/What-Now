@@ -26,25 +26,24 @@
 		- [x] tinyurl
 	
 	- [ ] MLOPS / AI Engineering
-		- [ ] Complete a MLOPS book
+		- [x] Complete a MLOPS book
 		- [ ] ML INFRA GITHUB
 		- [ ] AI Engineering GITHUB
+		- [ ] AI Engineering Book
 	
 	- [ ] Fun Projects
 		- [ ] Build a Harness 
 
 - Month Goal
 	- [ ] September
-		- [ ] Complete a MLOPS book
-		- [ ] Daily system design
+		- [x] Complete a MLOPS book
+		- [x] Daily system design
 		- [x] K8
 			- [x] Basics
-		- [ ] KubeFlow
 		- [x] TinyURL
 	- [ ] October
 		- [ ] Distributed Storage System
 		- [ ] Daily One Problem
-		- [ ] ML Infra Github
-		- [ ] AI Engineering Book
-			
+		- [ ] ML Infra Github (module 1 - 4)
+		- [ ] AI Engineering Book (5 chapters)
 	
