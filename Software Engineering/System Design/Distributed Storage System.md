@@ -1,0 +1,11 @@
+Phase 1
+- [ ] Basic API Structures
+	- [ ] /files POST
+		- [ ] Need to add retries , consistency
+	- [ ] /files/{bucket-name} GET
+	- [ ] /files/{bucket-name}/{file-name} GET
+	- [ ] /files/{bucket-name}/{file-name} DELETE
+		- [ ] Need to add retries , consitency
+	- [ ] /files/{bucket-name} DELETE
+		- [ ] Need to add retries , consistency
+- [ ] Detection and Recovery from inconsistent states

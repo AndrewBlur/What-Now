@@ -43,7 +43,7 @@
 		- [x] TinyURL
 	- [ ] October
 		- [ ] Distributed Storage System
+	
 		- [ ] Daily One Problem
 		- [ ] ML Infra Github (module 1 - 4)
-		- [ ] AI Engineering Book (5 chapters)
 	
