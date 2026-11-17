@@ -2,7 +2,8 @@
 	- [x] Go to a Dentist
 	- [ ] moles
 	- [x] Hair Clinic 
-	- [ ] Blood Test
+	- [x] Blood Test
+		- [ ] 
 
 - [ ] Learn how to draw (Good Enough to go on a stroll and draw a background)
 	- [x] Basics
@@ -43,7 +44,5 @@
 		- [x] TinyURL
 	- [ ] October
 		- [ ] Distributed Storage System
-	
-		- [ ] Daily One Problem
 		- [ ] ML Infra Github (module 1 - 4)
 	

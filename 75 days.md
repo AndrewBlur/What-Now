@@ -1,0 +1,3 @@
+- [ ] Sunday Oct 18
+- [ ] Monday Oct 19
+- [ ] Tuesday Oct 20
