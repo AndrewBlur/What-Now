@@ -3,7 +3,6 @@
 	- [ ] moles
 	- [x] Hair Clinic 
 	- [x] Blood Test
-		- [ ] 
 
 - [ ] Learn how to draw (Good Enough to go on a stroll and draw a background)
 	- [x] Basics
@@ -28,21 +27,20 @@
 	
 	- [ ] MLOPS / AI Engineering
 		- [x] Complete a MLOPS book
-		- [ ] ML INFRA GITHUB
-		- [ ] AI Engineering GITHUB
 		- [ ] AI Engineering Book
 	
 	- [ ] Fun Projects
 		- [ ] Build a Harness 
 
 - Month Goal
-	- [ ] September
+	- [x] September
 		- [x] Complete a MLOPS book
 		- [x] Daily system design
 		- [x] K8
 			- [x] Basics
 		- [x] TinyURL
-	- [ ] October
-		- [ ] Distributed Storage System
-		- [ ] ML Infra Github (module 1 - 4)
-	
+	- [x] October
+		- [x] Distributed Storage System
+	- [ ] November
+		- [ ] Websockets
+		- [ ] AI Engineering Book

@@ -1,6 +1,7 @@
 - [ ] Horse riding
 - [ ] Rock Climbing
-- [ ] Ramen
+- [ ] Fishing
+- [x] Ramen
 - [ ] Paragliding
 - [ ] Bungee Jumping
 - [ ] Concert
