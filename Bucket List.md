@@ -8,3 +8,4 @@
 - [ ] Archery
 - [ ] Learn Swimming - gears cost - 1500 , classes cost -  , Saturday and Sunday
 - [ ] Learn Japanese
+- [ ] Hi from phone
